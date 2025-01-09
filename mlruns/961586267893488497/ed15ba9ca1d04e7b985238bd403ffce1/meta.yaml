@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ML%20Flow/New%20folder/Binary-Classification-of-Insurance-Cross-Selling/mlruns/961586267893488497/ed15ba9ca1d04e7b985238bd403ffce1/artifacts
+end_time: 1736426042434
+entry_point_name: ''
+experiment_id: '961586267893488497'
+lifecycle_stage: active
+run_id: ed15ba9ca1d04e7b985238bd403ffce1
+run_name: Logistic Regression
+run_uuid: ed15ba9ca1d04e7b985238bd403ffce1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736426038354
+status: 3
+tags: []
+user_id: Advait

@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ML%20Flow/New%20folder/Binary-Classification-of-Insurance-Cross-Selling/mlruns/961586267893488497/0a40bf7185554c2dad33e963a1716873/artifacts
+end_time: 1736426052352
+entry_point_name: ''
+experiment_id: '961586267893488497'
+lifecycle_stage: active
+run_id: 0a40bf7185554c2dad33e963a1716873
+run_name: XGB Classifier
+run_uuid: 0a40bf7185554c2dad33e963a1716873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736426050541
+status: 3
+tags: []
+user_id: Advait

@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ML%20Flow/New%20folder/Binary-Classification-of-Insurance-Cross-Selling/mlruns/961586267893488497/ef98e4a510c64b31814eecc6b70977c9/artifacts
+end_time: 1736426044467
+entry_point_name: ''
+experiment_id: '961586267893488497'
+lifecycle_stage: active
+run_id: ef98e4a510c64b31814eecc6b70977c9
+run_name: Random Forest
+run_uuid: ef98e4a510c64b31814eecc6b70977c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736426042695
+status: 3
+tags: []
+user_id: Advait
