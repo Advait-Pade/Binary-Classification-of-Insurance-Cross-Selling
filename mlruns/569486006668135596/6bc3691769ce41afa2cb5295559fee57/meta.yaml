@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/569486006668135596/6bc3691769ce41afa2cb5295559fee57/artifacts
+end_time: 1736424657681
+entry_point_name: ''
+experiment_id: '569486006668135596'
+lifecycle_stage: active
+run_id: 6bc3691769ce41afa2cb5295559fee57
+run_name: Random Forest
+run_uuid: 6bc3691769ce41afa2cb5295559fee57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736424655515
+status: 3
+tags: []
+user_id: Advait

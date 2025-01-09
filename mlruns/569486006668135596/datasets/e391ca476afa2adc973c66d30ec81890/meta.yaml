@@ -1,0 +1,12 @@
+digest: 8c6456c4
+name: Kaggle Competition
+profile: '{"num_rows": 10000, "num_elements": 90000}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Driving_License", "required":
+  true}, {"type": "long", "name": "Previously_Insured", "required": true}, {"type":
+  "long", "name": "Vehicle_Age", "required": true}, {"type": "long", "name": "Vehicle_Damage",
+  "required": true}, {"type": "double", "name": "Annual_Premium", "required": true},
+  {"type": "double", "name": "Policy_Sales_Channel", "required": true}, {"type": "long",
+  "name": "Vintage", "required": true}, {"type": "long", "name": "Response", "required":
+  true}, {"type": "long", "name": "Age_group", "required": true}]}'
+source: '{"uri": "D:\\ML Flow\\train_df.csv"}'
+source_type: local

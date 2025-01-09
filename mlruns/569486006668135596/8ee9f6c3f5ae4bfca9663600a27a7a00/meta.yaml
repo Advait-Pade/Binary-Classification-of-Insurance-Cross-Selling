@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/569486006668135596/8ee9f6c3f5ae4bfca9663600a27a7a00/artifacts
+end_time: 1736424662351
+entry_point_name: ''
+experiment_id: '569486006668135596'
+lifecycle_stage: active
+run_id: 8ee9f6c3f5ae4bfca9663600a27a7a00
+run_name: XGB Classifier
+run_uuid: 8ee9f6c3f5ae4bfca9663600a27a7a00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736424660497
+status: 3
+tags: []
+user_id: Advait
