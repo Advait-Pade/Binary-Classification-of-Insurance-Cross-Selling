@@ -1,4 +1,4 @@
-artifact_uri: file:///d:/ML%20Flow/New%20folder/Binary-Classification-of-Insurance-Cross-Selling/mlruns/961586267893488497/0a40bf7185554c2dad33e963a1716873/artifacts
+artifact_uri: ./mlruns/961586267893488497/0a40bf7185554c2dad33e963a1716873/artifacts
 end_time: 1736426052352
 entry_point_name: ''
 experiment_id: '961586267893488497'
