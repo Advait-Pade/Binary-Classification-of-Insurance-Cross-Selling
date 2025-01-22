@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Insurance Customer Predictor</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script type="text/javascript" src="/static/scripts/style.js"></script>
+  </head>
+  <body>
+    <h1 align="center">Insurance Customer Predictor</h1>
+    <form action = "http://localhost:5000/insurance_classifier" method="post">
+      <table border="1" style="width:50%">
+        <tr>
+          <th>id</th>
+          <td><input type="text" name="id" /></td>
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td><select name="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td><input type="number" name="age" /></td>
+        </tr>
+        <tr>
+          <th>Driving_License</th>
+          <td><select name="driving_license">
+              <option value=1>Yes</option>
+              <option value=0>No</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Region_Code</th>
+          <td><select name="region_code">
+              {% for i in range(1, 53) %}
+                <option value="{{ i }}">{{ i }}</option>
+              {% endfor %}
+            </select></td>
+        </tr>
+        <tr>
+          <th>Previously_Insured</th>
+          <td><select name="previously_insured">
+              <option value=1>Yes</option>
+              <option value=0>No</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Vehicle_Age</th>
+          <td><select name="vehicle_age">
+              <option value="1-2 Year">1-2 Year</option>
+              <option value="< 1 Year">Less than 1 Year</option>
+              <option value="> 2 Years">More than 2 Years</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Vehicle_Damage</th>
+          <td><select name="vehicle_damage">
+              <option value=1>Yes</option>
+              <option value=0>No</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Policy Sales Channel
+            </th>
+            <td><select name="policy_sales_channel">
+                {% for i in range(1, 164) %}
+                  <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+              </select></td>
+          </tr>
+        <tr>
+          <th>Annual_Premium</th>
+          <td><input type="number" name="annual_premium" /></td>
+        </tr>
+        <tr>
+          <th>Vintage</th>
+          <td><select name="vintage">
+              {% for i in range(10, 300) %}
+                <option value="{{ i }}">{{ i }}</option>
+              {% endfor %}
+            </select></td>
+        </tr>
+      </table>
+      <p align="center"><input class="submit-button" type="submit" value="Submit" /></p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Classification Result</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script type="text/javascript" src="/static/scripts/script.js"></script>
+</head>
+<body>
+    <h2>Classification Result:</h2>
+    {% if classification_result == "Will take the insurance" %}
+        <p>You are likely to take the insurance.</p>
+    {% elif classification_result == "Will not take the insurance" %}
+        <p>You are unlikely to take the insurance.</p>
+    {% else %}
+        <p>Your decision is uncertain (probability between 0.3 and 0.7).</p>
+    {% endif %}
+</body>
+</html>
