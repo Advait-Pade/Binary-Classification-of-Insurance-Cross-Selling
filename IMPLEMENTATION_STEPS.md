@@ -6,7 +6,7 @@ Follow these steps to set up and run the project.
 Clone the repository using your preferred method (HTTPS, SSH, or GitHub CLI).
 
 ```bash
-git clone [text](https://github.com/Advait-Pade/Binary-Classification-of-Insurance-Cross-Selling.git)
+git clone [https://github.com/Advait-Pade/Binary-Classification-of-Insurance-Cross-Selling.git]
 ```
 
 ## Step 2: Create a Virtual Environment
